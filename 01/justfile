@@ -1,0 +1,8 @@
+default:
+  just --list
+
+run_part_one:
+  duckdb temp.db < part_one.sql
+
+run_part_two:
+  duckdb temp.db < part_two.sql
