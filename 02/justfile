@@ -2,4 +2,7 @@ default:
   just --list
 
 run_part_one:
-  cabal run
+  cabal run x02one
+
+run_part_two:
+  cabal run x02two
