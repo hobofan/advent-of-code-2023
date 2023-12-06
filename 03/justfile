@@ -1,0 +1,6 @@
+default:
+  just --list
+
+run_part_one:
+  gcc -o part_one part_one.c
+  ./part_one
