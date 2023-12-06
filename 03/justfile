@@ -4,3 +4,7 @@ default:
 run_part_one:
   gcc -o part_one part_one.c
   ./part_one
+
+run_part_two:
+  gcc -o part_two part_two.c
+  ./part_two
