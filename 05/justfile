@@ -1,0 +1,8 @@
+default:
+  just --list
+
+run_part_one:
+  crystal part_one.cr
+
+run_part_two:
+  crystal run part_two.cr --release

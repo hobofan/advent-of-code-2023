@@ -1,0 +1,5 @@
+name: advent_of_code
+version: 1.0.0
+dependencies:
+  progress:
+    github: askn/progress
